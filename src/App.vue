@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <img alt="Pusher logo" src="./assets/pusher.jpg" height="100px">
     <router-view/>
   </div>
 </template>
 
 <style>
+body{
+  background-color: #212F3D;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +26,10 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.logo{
+  padding-top: 50px;
+  border-radius: 100%;
 }
 </style>
